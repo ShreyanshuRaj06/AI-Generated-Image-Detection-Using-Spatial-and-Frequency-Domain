@@ -1,0 +1,37 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Checkpoints & legacy/raw downloads
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+colab_downloaded.ipynb
+AI_Image_Detection.ipynb
+
+# Datasets and local image directories
+/subsets/
+/data/
+*.zip
+*.tar
+*.tar.gz
+*.png
+*.jpg
+*.jpeg
+
+# Checkpoints and large artifacts
+*.pth
+*.pt
+*.pkl
+checkpoints/
+logs/
+
+# Credentials
+kaggle.json
+*.token
+
+# System files
+.DS_Store
+Thumbs.db
