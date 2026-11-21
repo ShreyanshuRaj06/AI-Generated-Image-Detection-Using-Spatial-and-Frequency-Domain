@@ -32,6 +32,11 @@ logs/
 kaggle.json
 *.token
 
+# Local Research Paper drafts (kept local only)
+paper/
+*.tex
+*.bib
+
 # System files
 .DS_Store
 Thumbs.db
